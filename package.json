@@ -1,0 +1,28 @@
+{
+  "name": "angular-pig-latin",
+  "version": "0.1.0",
+  "description": "Angular filter to translate English to Pig Latin.",
+  "main": "angular-pig-latin.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dhallsim/angular-pig-latin.git"
+  },
+  "keywords": [
+    "angular",
+    "pig-latin"
+  ],
+  "author": "Derek Hall",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "url": "https://github.com/dhallsim/angular-pig-latin",
+  "bugs": {
+    "url": "https://github.com/dhallsim/angular-pig-latin/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4"
+  }
+}
