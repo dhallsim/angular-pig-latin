@@ -18,6 +18,7 @@ filter('pigLatin', function() {
 	var translateToPigLatin = function(word) {
 		if (!word || !word.length) return '';
 
+		// If word starts with a vowel, 
 		word = word.replace(/\b([aeiou][a-z]*)\b/i, "$1way");
 		word = word.replace(/\b([bcdfghjklmnpqrstvwxy]+)([a-z]*)\b/i, "$2$1ay");
 

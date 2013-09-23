@@ -44,13 +44,24 @@ module.exports = function (grunt) {
             globals: {
                 jQuery: true
             }
+        },
+
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js',
+                runnerPort: 9876,
+                singleRun: true,
+                reporters: ['progress'],
+                browsers: ['PhantomJS']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-clean')
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-karma');
 
-    grunt.registerTask('default', ['clean', 'copy', 'jshint', 'uglify']);
+    grunt.registerTask('default', ['clean', 'copy', 'jshint', 'karma', 'uglify']);
 };
