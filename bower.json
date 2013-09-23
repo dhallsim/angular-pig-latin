@@ -1,0 +1,23 @@
+{
+  "name": "angular-pig-latin",
+  "main": "angular-pig-latin.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dhallsim/angular-pig-latin",
+  "authors": [
+    "Derek Hall <dsh8837@gmail.com>"
+  ],
+  "description": "Angular filter to translate English to Pig Latin.",
+  "keywords": [
+    "angular",
+    "pig",
+    "latin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
