@@ -2,7 +2,7 @@
 
 Angular filter to translate English to Pig Latin
 
-Check out the demo [Demo](http://dhallsim.github.io/angular-pig-latin)
+Check out the [Demo](http://dhallsim.github.io/angular-pig-latin)
 
 ## Usage
 Include `angular-pig-latin.js` (or angular-pig-latin.min.js) and add the dependency `pigLatin` to your app.
