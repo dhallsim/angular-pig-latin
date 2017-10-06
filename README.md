@@ -1,6 +1,6 @@
 # Angular Pig Latin Filter [![Build Status](https://travis-ci.org/dhallsim/angular-pig-latin.png?branch=master)](https://travis-ci.org/dhallsim/angular-pig-latin)
 
-Angular filter to traslate Englih to Pig Ltin
+Angular filter to translate Englih to Pig Ltin
 
 Check out the [Demo](http://dhallsim.github.io/angular-pig-latin)
 
